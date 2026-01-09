@@ -7,7 +7,8 @@ const scheme = Appearance.getColorScheme();
 export const COLORS = {
   primary: '#2563EB',
   accent: '#22C55E',
-  background: scheme === 'dark' ? '#020617' : '#F8FAFC',
+ background: '#FFFFFF',
+
   card: scheme === 'dark' ? '#020617' : '#FFFFFF',
   text: scheme === 'dark' ? '#F8FAFC' : '#020617',
   muted: scheme === 'dark' ? '#94A3B8' : '#64748B',

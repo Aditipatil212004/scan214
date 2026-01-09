@@ -9,6 +9,8 @@ import StaffVerifyScreen from '../screens/StaffVerifyScreen';
 import AdminLoginScreen from '../screens/AdminLoginScreen';
 import AdminDashboard from '../screens/AdminDashboard';
 
+
+
 const Stack = createNativeStackNavigator();
 
 export default function AppNavigator() {
@@ -23,6 +25,7 @@ export default function AppNavigator() {
       <Stack.Screen name="StaffVerify" component={StaffVerifyScreen} />
       <Stack.Screen name="AdminLogin" component={AdminLoginScreen} />
       <Stack.Screen name="AdminDashboard" component={AdminDashboard} />
+      
     </Stack.Navigator>
   );
 }
